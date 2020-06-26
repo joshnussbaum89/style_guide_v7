@@ -388,11 +388,9 @@ a {
 .btn {
   margin-top: 15px;
   width: 100%;
-  /* here */
   color: #fff;
   border: none;
   padding: 10px 0;
-  /* here */
   text-transform: uppercase;
   border-radius: 5px;
 }
@@ -516,6 +514,36 @@ a {
 }
 
 /* ============================================= */
+/*              Images                           */
+/* ============================================= */
+.img-avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 100%;
+  /* here */
+  max-height: 100%;
+}
+
+.img-frame {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 100%;
+  /* here */
+  padding: 13px;
+  border: 1px solid #ccc;
+}
+
+.img-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ============================================= */
 /*              Navigation                       */
 /* ============================================= */
 .nav {
@@ -527,13 +555,10 @@ a {
 
 .nav-link {
   text-align: center;
-  /* here */
   border-radius: 5px;
   padding: 10px 0;
-  /* here */
   display: block;
   width: 100%;
-  /* here */
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
@@ -543,54 +568,18 @@ a {
 }
 
 /* ============================================= */
-/*              Images                           */
-/* ============================================= */
-.img-avatar {
-  display: block;
-  /* here */
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  max-width: 100%;
-  /* here */
-  max-height: 100%;
-}
-
-.img-frame {
-  display: block;
-  /* here */
-  margin-left: auto;
-  /* here */
-  margin-right: auto;
-  margin-top: 10px;
-  max-width: 100%;
-  /* here */
-  padding: 13px;
-  border: 1px solid #ccc;
-}
-
-.img-logo {
-  display: block;
-  /* here */
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
 @media (min-width: 768px) {
   .container {
     max-width: 1400px;
     display: block;
-    /* here */
     margin-left: auto;
     margin-right: auto;
   }
 
   .centered {
     display: block;
-    /* here */
     margin-left: auto;
     margin-right: auto;
   }

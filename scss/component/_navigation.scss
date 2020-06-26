@@ -10,15 +10,15 @@
 }
 
 .nav-link {
-  text-align: center; /* here */
+  text-align: center;
   border-radius: 5px;
-  padding: 10px 0; /* here */
+  padding: 10px 0;
   display: block;
-  width: 100%; /* here */
+  width: 100%;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
 .nav-link:hover {
-  color: #fff;
-  background-color: #58e1c1;
+  color: $color-white;
+  background-color: $color-primary;
 }
