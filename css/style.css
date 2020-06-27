@@ -522,7 +522,6 @@ a {
   margin-right: auto;
   margin-top: 10px;
   max-width: 100%;
-  /* here */
   max-height: 100%;
 }
 
@@ -532,7 +531,6 @@ a {
   margin-right: auto;
   margin-top: 10px;
   max-width: 100%;
-  /* here */
   padding: 13px;
   border: 1px solid #ccc;
 }
@@ -590,10 +588,9 @@ a {
 
   [class^=col] {
     display: flex;
-    /* here */
     justify-content: center;
-    margin-top: 0;
     align-items: center;
+    margin-top: 0;
   }
 
   [class^=col] + [class^=col] {

@@ -17,10 +17,8 @@
   }
 
   [class^="col"] {
-    display: flex; /* here */
-    justify-content: center;
+    @include flexy($just: center, $align: center);
     margin-top: 0;
-    align-items: center;
   }
 
   [class^="col"] + [class^="col"] {
