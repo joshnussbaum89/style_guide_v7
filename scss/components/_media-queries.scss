@@ -2,7 +2,7 @@
 /*              Media Queries                    */
 /* ============================================= */
 
-@media (min-width: $md) {
+@include mq {
   .container {
     max-width: 1400px;
     @include center;
