@@ -14,20 +14,40 @@
 
 .default {
   background-color: $color-default;
+  transition: background-color 0.2s ease-in-out;
+  &:hover {
+    background-color: $color-default-light;
+  }
 }
 
 .error {
   background-color: $button-error;
+  transition: background-color 0.2s ease-in-out;
+  &:hover {
+    background-color: $button-error-light;
+  }
 }
 
 .info {
   background-color: $button-info;
+  transition: background-color 0.2s ease-in-out;
+  &:hover {
+    background-color: $button-info-light;
+  }
 }
 
 .success {
   background-color: $button-success;
+  transition: background-color 0.2s ease-in-out;
+  &:hover {
+    background-color: $button-success-light;
+  }
 }
 
 .warning {
   background-color: $button-warning;
+  transition: background-color 0.2s ease-in-out;
+  &:hover {
+    background-color: $button-warning-light;
+  }
 }
